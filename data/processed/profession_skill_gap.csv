@@ -1,0 +1,15 @@
+profession,skill,jobs_requiring_skill,job_coverage_percentage,status,priority
+Healthcare,Nursing,80,55.94,Skill Gap,High
+Healthcare,MBBS,31,21.68,Already Have,Medium
+Healthcare,Diagnosis,21,14.69,Already Have,Medium
+Healthcare,MD,19,13.29,Already Have,Medium
+Healthcare,Medical Coding,18,12.59,Skill Gap,Medium
+Healthcare,Medical Records,14,9.79,Skill Gap,Low
+Healthcare,General Medicine,13,9.09,Already Have,Low
+Healthcare,Patient Care,9,6.29,Skill Gap,Low
+Healthcare,Clinical Documentation,7,4.9,Already Have,Low
+Healthcare,Emergency Care,1,0.7,Already Have,Low
+Healthcare,BLS,1,0.7,Already Have,Low
+Healthcare,Physiotherapy,1,0.7,Skill Gap,Low
+Healthcare,Radiology,1,0.7,Skill Gap,Low
+Healthcare,Healthcare Management,1,0.7,Skill Gap,Low

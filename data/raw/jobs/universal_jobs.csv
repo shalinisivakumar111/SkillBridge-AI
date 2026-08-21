@@ -1,0 +1,7 @@
+job_id,job_title,company,role_id,job_family,location,address,latitude,longitude,skills,salary,employment_type,description,redirect_url
+1,MD Dermatologist,ABC Hospital,doctor,Healthcare,Vellore,Vellore Tamil Nadu,12.88,79.13,"MBBS,MD,patient care,diagnosis",80000,Full-time,"Dermatologist required",https://example.com
+2,Staff Nurse,City Hospital,nurse,Healthcare,Vellore,Vellore Tamil Nadu,12.92,79.14,"GNM,nursing,patient care,BLS",30000,Full-time,"Staff nurse required",https://example.com
+3,Math Teacher,ABC School,teacher,Education,Vellore,Vellore Tamil Nadu,12.91,79.15,"teaching,mathematics,classroom management",25000,Full-time,"Math teacher required",https://example.com
+4,Accountant,XYZ Traders,accountant,Finance,Vellore,Vellore Tamil Nadu,12.90,79.12,"accounting,Tally,Excel",28000,Full-time,"Accountant required",https://example.com
+5,Software Developer,Tech Solutions,developer,IT,Vellore,Vellore Tamil Nadu,12.93,79.10,"Python,SQL,Git,JavaScript",45000,Full-time,"Developer required",https://example.com
+6,Electrician,Local Electricals,electrician,Skilled Trades,Vellore,Vellore Tamil Nadu,12.89,79.11,"electrical wiring,maintenance,repair",22000,Full-time,"Electrician required",https://example.com

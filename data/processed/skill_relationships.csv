@@ -1,0 +1,47 @@
+skill,related_skill,weight
+office administration,office,0.70
+office administration,ms office,0.80
+office administration,data entry,0.70
+office administration,excel,0.60
+office administration,ms excel,0.60
+office administration,computer operation,0.70
+office administration,administrative work,0.90
+office administration,communication,0.50
+office,office administration,0.70
+ms office,office administration,0.80
+data entry,office administration,0.70
+excel,office administration,0.60
+ms excel,office administration,0.60
+computer operation,office administration,0.70
+customer service,customer support,0.90
+customer service,communication,0.70
+customer service,interpersonal skills,0.70
+customer service,sales,0.50
+customer support,customer service,0.90
+communication,customer service,0.70
+interpersonal skills,customer service,0.70
+sales,customer service,0.50
+excel,ms excel,0.95
+ms excel,excel,0.95
+excel,spreadsheet,0.90
+spreadsheet,excel,0.90
+data entry,excel,0.70
+excel,data entry,0.70
+python,programming,0.80
+python,software development,0.70
+javascript,web development,0.80
+javascript,programming,0.80
+react,web development,0.90
+react,javascript,0.80
+sql,database,0.80
+sql,data analysis,0.70
+power bi,data analysis,0.90
+power bi,data visualization,0.80
+data analysis,excel,0.60
+data analysis,sql,0.70
+graphic design,photoshop,0.80
+graphic design,illustrator,0.80
+photoshop,graphic design,0.80
+illustrator,graphic design,0.80
+customer service,telugu,0.20
+customer service,hindi,0.20

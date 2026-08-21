@@ -1,0 +1,36 @@
+need_id,location,role_id,need_level,openings,reason
+1,Vellore,teacher,High,18,"Shortage of school teachers"
+2,Vellore,nurse,High,25,"Healthcare staffing demand"
+3,Vellore,doctor,Medium,7,"Local clinic expansion"
+4,Vellore,electrician,High,14,"Residential electrical demand"
+5,Vellore,driver,Medium,20,"Delivery and transport demand"
+6,Vellore,farmer,High,30,"Agriculture workforce demand"
+def community_need_score(role_id, location, needs_df):
+
+    if needs_df.empty:
+        return 0
+
+    matches = needs_df[
+        (needs_df["role_id"] == role_id)
+        &
+        (
+            needs_df["location"]
+            .str.lower()
+            == str(location).lower()
+        )
+    ]
+
+    if matches.empty:
+        return 0
+
+    level = str(
+        matches.iloc[0]["need_level"]
+    ).lower()
+
+    if level == "high":
+        return 100
+
+    if level == "medium":
+        return 60
+
+    return 30

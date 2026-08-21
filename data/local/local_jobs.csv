@@ -1,0 +1,16 @@
+job_id,job_title,company,location,skills,salary,experience_years,employment_type,community_need
+L001,Data Entry Operator,Local Office Solutions,Secunderabad,"MS Excel, MS Office, Data Entry, English Communication",18000,0,Full-time,Administrative services
+L002,Computer Operator,Community Digital Center,Hyderabad,"MS Office, Excel, Computer Operations, Communication",16000,0,Full-time,Digital services
+L003,Python Developer,Hyderabad Tech Solutions,Hyderabad,"Python, SQL, Flask, Git, Communication",35000,1,Full-time,Software development
+L004,Web Developer,Local Web Services,Secunderabad,"HTML, CSS, JavaScript, React, Git",28000,1,Full-time,Web development
+L005,Data Analyst,City Analytics Services,Hyderabad,"Python, SQL, Excel, Power BI, Statistics",32000,1,Full-time,Data services
+L006,Digital Marketing Executive,Local Business Hub,Hyderabad,"Digital Marketing, SEO, Social Media, Communication, Content Writing",22000,0,Full-time,Small business support
+L007,Account Assistant,Community Finance Services,Secunderabad,"Accounting, Tally, Excel, MS Office",20000,1,Full-time,Financial services
+L008,Customer Support Executive,Local Service Center,Hyderabad,"Communication, Customer Service, English, Problem Solving",19000,0,Full-time,Customer services
+L009,Graphic Designer,Local Creative Studio,Secunderabad,"Graphic Design, Photoshop, Illustrator, Creativity",25000,1,Full-time,Creative services
+L010,IT Support Technician,Community IT Services,Hyderabad,"Computer Hardware, Networking, Troubleshooting, Windows",24000,1,Full-time,Technical support
+L011,Sales Executive,Local Retail Services,Secunderabad,"Sales, Communication, Customer Service, Negotiation",21000,0,Full-time,Retail services
+L012,Teacher,Community Learning Center,Hyderabad,"Teaching, Communication, Mathematics, Classroom Management",20000,1,Full-time,Education
+L013,Mobile Repair Technician,Local Electronics Center,Secunderabad,"Mobile Repair, Electronics, Troubleshooting, Customer Service",22000,1,Full-time,Technical services
+L014,Office Assistant,Community Office Services,Hyderabad,"MS Office, Excel, Data Entry, Communication",17000,0,Full-time,Administrative services
+L015,Junior Accountant,Local Accounting Services,Secunderabad,"Accounting, Tally, GST, Excel, Bookkeeping",23000,1,Full-time,Financial services

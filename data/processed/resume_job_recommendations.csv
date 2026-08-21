@@ -1,0 +1,16 @@
+job_id,job_title,company,location,skill_match,local_bonus,final_score,matched_skills
+L001,Data Entry Operator,Local Office Solutions,Secunderabad,25.0,10,35.0,office administration
+L002,Computer Operator,Community Digital Center,Hyderabad,25.0,10,35.0,office administration
+L007,Account Assistant,Community Finance Services,Secunderabad,25.0,10,35.0,office administration
+L008,Customer Support Executive,Local Service Center,Hyderabad,25.0,10,35.0,customer service
+L011,Sales Executive,Local Retail Services,Secunderabad,25.0,10,35.0,customer service
+L013,Mobile Repair Technician,Local Electronics Center,Secunderabad,25.0,10,35.0,customer service
+L014,Office Assistant,Community Office Services,Hyderabad,25.0,10,35.0,office administration
+L003,Python Developer,Hyderabad Tech Solutions,Hyderabad,0.0,10,10.0,
+L004,Web Developer,Local Web Services,Secunderabad,0.0,10,10.0,
+L005,Data Analyst,City Analytics Services,Hyderabad,0.0,10,10.0,
+L006,Digital Marketing Executive,Local Business Hub,Hyderabad,0.0,10,10.0,
+L009,Graphic Designer,Local Creative Studio,Secunderabad,0.0,10,10.0,
+L010,IT Support Technician,Community IT Services,Hyderabad,0.0,10,10.0,
+L012,Teacher,Community Learning Center,Hyderabad,0.0,10,10.0,
+L015,Junior Accountant,Local Accounting Services,Secunderabad,0.0,10,10.0,

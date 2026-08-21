@@ -1,0 +1,47 @@
+skill,jobs_requiring_skill,job_percentage,status,priority
+Nursing,80,52.63,Skill Gap,High
+Communication,38,25.0,Skill Gap,High
+Sales,37,24.34,Skill Gap,High
+MBBS,31,20.39,Already Have,High
+Excel,30,19.74,Skill Gap,Medium
+Diagnosis,21,13.82,Already Have,Medium
+MD,19,12.5,Already Have,Medium
+Medical Coding,18,11.84,Skill Gap,Medium
+General Medicine,14,9.21,Already Have,Medium
+Medical Records,11,7.24,Skill Gap,Low
+Documentation,10,6.58,Skill Gap,Low
+Training,10,6.58,Skill Gap,Low
+Patient Care,9,5.92,Skill Gap,Low
+Clinical Documentation,7,4.61,Already Have,Low
+Git,7,4.61,Skill Gap,Low
+Driving,6,3.95,Skill Gap,Low
+Business Development,6,3.95,Skill Gap,Low
+Assessment,5,3.29,Skill Gap,Low
+Accounting,5,3.29,Skill Gap,Low
+Retail,4,2.63,Skill Gap,Low
+CAD,3,1.97,Skill Gap,Low
+Teaching,3,1.97,Skill Gap,Low
+SEM,2,1.32,Skill Gap,Low
+Java,2,1.32,Skill Gap,Low
+JavaScript,2,1.32,Skill Gap,Low
+Node.js,2,1.32,Skill Gap,Low
+Customer Service,2,1.32,Skill Gap,Low
+Emergency Care,1,0.66,Already Have,Low
+Data Analysis,1,0.66,Skill Gap,Low
+Inventory Management,1,0.66,Skill Gap,Low
+Supply Chain,1,0.66,Skill Gap,Low
+Office Administration,1,0.66,Skill Gap,Low
+AWS,1,0.66,Skill Gap,Low
+SEO,1,0.66,Skill Gap,Low
+Data Science,1,0.66,Skill Gap,Low
+Manufacturing,1,0.66,Skill Gap,Low
+BLS,1,0.66,Already Have,Low
+Physiotherapy,1,0.66,Skill Gap,Low
+Radiology,1,0.66,Skill Gap,Low
+Artificial Intelligence,1,0.66,Skill Gap,Low
+Customer Support,1,0.66,Skill Gap,Low
+Lead Generation,1,0.66,Skill Gap,Low
+GST,1,0.66,Skill Gap,Low
+Machine Learning,1,0.66,Skill Gap,Low
+React,1,0.66,Skill Gap,Low
+Angular,1,0.66,Skill Gap,Low

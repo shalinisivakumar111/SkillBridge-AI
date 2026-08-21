@@ -1,0 +1,16 @@
+job_id,job_title,company,location,skill_match,local_bonus,final_score,matched_skills,match_types,job_skills
+L008,Customer Support Executive,Local Service Center,Hyderabad,25.0,10.0,35.0,customer service → customer service,exact,communication; customer service; english; problem solving
+L011,Sales Executive,Local Retail Services,Secunderabad,25.0,0.0,25.0,customer service → customer service,exact,sales; communication; customer service; negotiation
+L013,Mobile Repair Technician,Local Electronics Center,Secunderabad,25.0,0.0,25.0,customer service → customer service,exact,mobile repair; electronics; troubleshooting; customer service
+L002,Computer Operator,Community Digital Center,Hyderabad,0.0,10.0,10.0,,,ms office; excel; computer operations; communication
+L003,Python Developer,Hyderabad Tech Solutions,Hyderabad,0.0,10.0,10.0,,,python; sql; flask; git; communication
+L005,Data Analyst,City Analytics Services,Hyderabad,0.0,10.0,10.0,,,python; sql; excel; power bi; statistics
+L006,Digital Marketing Executive,Local Business Hub,Hyderabad,0.0,10.0,10.0,,,digital marketing; seo; social media; communication; content writing
+L010,IT Support Technician,Community IT Services,Hyderabad,0.0,10.0,10.0,,,computer hardware; networking; troubleshooting; windows
+L012,Teacher,Community Learning Center,Hyderabad,0.0,10.0,10.0,,,teaching; communication; mathematics; classroom management
+L014,Office Assistant,Community Office Services,Hyderabad,0.0,10.0,10.0,,,ms office; excel; data entry; communication
+L001,Data Entry Operator,Local Office Solutions,Secunderabad,0.0,0.0,0.0,,,ms excel; ms office; data entry; english communication
+L004,Web Developer,Local Web Services,Secunderabad,0.0,0.0,0.0,,,html; css; javascript; react; git
+L007,Account Assistant,Community Finance Services,Secunderabad,0.0,0.0,0.0,,,accounting; tally; excel; ms office
+L009,Graphic Designer,Local Creative Studio,Secunderabad,0.0,0.0,0.0,,,graphic design; photoshop; illustrator; creativity
+L015,Junior Accountant,Local Accounting Services,Secunderabad,0.0,0.0,0.0,,,accounting; tally; gst; excel; bookkeeping

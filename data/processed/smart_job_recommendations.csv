@@ -1,0 +1,16 @@
+job_id,job_title,company,location,skill_match,local_bonus,final_score,matched_skills,match_types
+L001,Data Entry Operator,Local Office Solutions,Secunderabad,58.0,5.0,63.0,office administration → excel; office administration → ms office; office administration → data entry; customer service → communication,related; related; related; related
+L014,Office Assistant,Community Office Services,Hyderabad,58.0,5.0,63.0,office administration → ms office; office administration → excel; office administration → data entry; customer service → communication,related; related; related; related
+L011,Sales Executive,Local Retail Services,Secunderabad,54.0,5.0,59.0,customer service → sales; customer service → communication; customer service → customer service,related; related; exact
+L002,Computer Operator,Community Digital Center,Hyderabad,46.0,5.0,51.0,office administration → ms office; office administration → excel; customer service → communication,related; related; related
+L008,Customer Support Executive,Local Service Center,Hyderabad,45.0,5.0,50.0,customer service → communication; customer service → customer service; office administration → problem solving,related; exact; supporting
+L007,Account Assistant,Community Finance Services,Secunderabad,29.0,5.0,34.0,office administration → excel; office administration → ms office,related; related
+L013,Mobile Repair Technician,Local Electronics Center,Secunderabad,25.0,5.0,30.0,customer service → customer service,exact
+L012,Teacher,Community Learning Center,Hyderabad,22.0,5.0,27.0,customer service → communication,related
+L003,Python Developer,Hyderabad Tech Solutions,Hyderabad,19.6,5.0,24.6,customer service → communication,related
+L006,Digital Marketing Executive,Local Business Hub,Hyderabad,19.6,5.0,24.6,customer service → communication,related
+L005,Data Analyst,City Analytics Services,Hyderabad,14.6,5.0,19.6,office administration → excel,related
+L015,Junior Accountant,Local Accounting Services,Secunderabad,14.6,5.0,19.6,office administration → excel,related
+L009,Graphic Designer,Local Creative Studio,Secunderabad,13.0,5.0,18.0,office administration → creativity,supporting
+L004,Web Developer,Local Web Services,Secunderabad,0.0,5.0,5.0,,
+L010,IT Support Technician,Community IT Services,Hyderabad,0.0,5.0,5.0,,

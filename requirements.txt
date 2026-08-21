@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+spacy
+flask
+flask-cors
+flask-sqlalchemy
+pymupdf
+python-docx
+geopy
+python-dotenv
+joblib

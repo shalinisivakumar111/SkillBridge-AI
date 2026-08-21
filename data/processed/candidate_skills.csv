@@ -1,0 +1,5 @@
+resume_file,skill_id,skill,matched_as,source
+test_resume.pdf,http://data.europa.eu/esco/skill/6a609f8f-1451-4102-ad2d-62c5270e1237,office administration,office administration,preferred
+test_resume.pdf,http://data.europa.eu/esco/skill/15a33d76-4640-438d-ae64-fdc0c1d3eebc,customer service,customer service,preferred
+test_resume.pdf,http://data.europa.eu/esco/skill/64fe09ac-f419-4c04-8997-d1dde2e31bfc,telugu,telugu,preferred
+test_resume.pdf,http://data.europa.eu/esco/skill/d93a7370-bf56-43f5-be54-e108f8ec3107,hindi,hindi,preferred
