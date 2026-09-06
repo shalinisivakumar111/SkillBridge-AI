@@ -2,68 +2,59 @@
 
 ## AI-Based Skill Matching for Local Employment
 
-SkillBridge AI is an AI-powered employment matching platform that connects
-job seekers with suitable job opportunities based on their skills,
-experience, location, and job requirements.
+SkillBridge AI is an AI-assisted employment matching prototype designed to help job seekers discover relevant employment opportunities based on their **skills, job role, and geographic location**.
 
-## Main Features
+The project combines resume/skill extraction, skill normalization, role-aware matching, related-skill matching, location-based filtering, job ranking, and skill-gap recommendations.
 
-- Resume upload and parsing
-- Automatic skill extraction
-- ESCO-based skill normalization
-- Job skill extraction
-- Semantic skill matching
-- Exact skill matching
-- Location-based matching
-- Experience matching
-- Job recommendation
-- Skill-gap detection
-- Learning recommendations
-- Employer candidate ranking
-- Job application management
+---
 
-## Technology Stack
+## 🚀 Key Features
 
-### AI / Machine Learning
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Sentence Transformers
-- ESCO
-- O*NET
+- 📄 Resume upload and parsing
+- 🧠 Automatic skill extraction
+- 🎯 Job-role-aware matching
+- 🔗 Exact skill matching
+- 🔗 Related-skill matching
+- 📍 Location-aware job recommendations
+- 🗺️ Map-based location selection
+- 📡 Browser GPS support when available
+- 📏 Geographic distance calculation
+- 📊 Skill-gap detection
+- 📚 Learning recommendations
+- 🌐 Multilingual interface support
+- 🔎 Job recommendation and ranking
+- 💼 Local employment-focused matching
 
-### Backend
-- Python
-- Flask
-- SQLite
+---
 
-### Frontend
-- React
-- JavaScript
-- HTML
-- CSS
-
-## Datasets
-
-The project uses:
-
-1. Job posting dataset
-2. Resume dataset
-3. ESCO occupational and skill classification
-4. O*NET occupational skill information
-
-## Project Structure
+## 🧠 How SkillBridge AI Works
 
 ```text
-SkillBridge-AI/
-├── data/
-├── scripts/
-├── notebooks/
-├── backend/
-├── frontend/
-├── models/
-├── uploads/
-├── database/
-├── tests/
-└── docs/
+Candidate / Resume
+        │
+        ▼
+Resume Text Extraction
+        │
+        ▼
+Skill Extraction
+        │
+        ▼
+Skill Normalization
+        │
+        ▼
+Job Role Matching
+        │
+        ▼
+Skill Matching
+        │
+        ▼
+Location Filtering
+        │
+        ▼
+Job Ranking
+        │
+        ▼
+Skill Gap Analysis
+        │
+        ▼
+Learning Recommendations
