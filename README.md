@@ -4,7 +4,7 @@
 
 SkillBridge AI is an AI-assisted employment matching prototype designed to help job seekers discover relevant employment opportunities based on their **skills, job role, and geographic location**.
 
-The project combines resume/skill extraction, skill normalization, role-aware matching, related-skill matching, location-based filtering, job ranking, and skill-gap recommendations.
+The project combines resume and skill extraction, skill normalization, role-aware matching, related-skill matching, location-based filtering, job ranking, and skill-gap recommendations.
 
 ---
 
