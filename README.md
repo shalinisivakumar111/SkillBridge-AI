@@ -1,4 +1,4 @@
-# SkillBridge AI
+**# SkillBridge AI
 
 ## AI-Based Skill Matching for Local Employment
 
@@ -59,8 +59,13 @@ Skill Gap Analysis
         ▼
 Learning Recommendations
 
+---
+
 Matching Approach
 SkillBridge AI combines several signals when generating job recommendations:
+
+---
+
 Candidate Skills
        +
 Job Role
@@ -70,6 +75,9 @@ Related Skills
 Geographic Location
        ↓
 Job Matching & Ranking
+
+---
+
 For example, a candidate searching for a software-related role with Java and web-development skills can receive recommendations based on:
 Role relevance
 Skill compatibility
@@ -778,3 +786,4 @@ If you find SkillBridge AI interesting:
 SkillBridge AI
 Connecting Skills to Local Opportunities
 Skills + Role + Location + Skill Gap → Better Employment Discovery
+**
