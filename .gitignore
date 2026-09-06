@@ -16,3 +16,6 @@ venv/
 
 # User uploads
 uploads/
+
+# Generated application outputs
+outputs/

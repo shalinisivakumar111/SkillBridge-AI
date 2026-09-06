@@ -43,7 +43,7 @@ LANGUAGES = {
         "upload": "Upload Resume",
         "gps": "Enable My Location",
         "find": "Find Nearby Jobs",
-        "matches": "TOP REAL-WORLD JOB MATCHES",
+        "matches": "TOP ADZUNA-SOURCED JOB MATCHES",
         "company": "Company",
         "address": "Company / Job Location",
         "distance": "Distance",
@@ -539,7 +539,17 @@ def infer_job_role(candidate_skills, explicit_role=""):
     """Infer a requested job role from explicit role text or obvious role skills."""
     explicit = normalize_text(explicit_role)
     if explicit:
-        return explicit
+        role_aliases = {
+            "software engineering": "developer",
+            "software engineer": "developer",
+            "software development": "developer",
+            "software developer": "developer",
+            "web development": "developer",
+            "web developer": "developer",
+            "programming": "developer",
+            "programmer": "developer",
+        }
+        return role_aliases.get(explicit, explicit)
 
     keys = {normalize_text(x) for x in candidate_skills if clean_value(x)}
     # Strong role indicators. Qualifications such as MBBS/MD are intentionally
@@ -861,7 +871,7 @@ st.sidebar.markdown("### SkillBridge AI\n\n**Real-world jobs • GPS • Multili
 
 st.title(f"💼 {T['title']}")
 st.subheader(T["subtitle"])
-st.caption("Real Adzuna jobs • Browser GPS • OpenStreetMap • Haversine distance")
+st.caption("Adzuna-sourced job records • Browser GPS • OpenStreetMap • Haversine distance")
 st.divider()
 
 jobs_df = _load_jobs()
@@ -1204,7 +1214,7 @@ if find_jobs or not st.session_state.last_results.empty:
             active_job_lon = override_lon if override_lon is not None else job_lon
 
             distance = haversine_distance(candidate_lat, candidate_lon, active_job_lat, active_job_lon)
-            if distance > 100:
+            if distance > 200:
                 continue
 
             job_skills = job_skills_from_row(job)
@@ -1267,7 +1277,7 @@ if find_jobs or not st.session_state.last_results.empty:
             })
 
         if not scored:
-            st.warning("No jobs with valid source coordinates were found within 100 km. Jobs without coordinates are not assigned a fake distance.")
+            st.warning("No jobs with valid source coordinates were found within 200 km. Jobs without coordinates are not assigned a fake distance.")
             st.stop()
 
         results_df = pd.DataFrame(scored).sort_values(["final_score", "distance_km"], ascending=[False, True]).head(10).reset_index(drop=True)
@@ -1356,7 +1366,9 @@ if find_jobs or not st.session_state.last_results.empty:
     st.caption("Candidate location and all matching company/job locations. The selected company location above is used for distance when an override is active.")
     render_map(candidate_lat, candidate_lon, results_df)
 
-    output_file = BASE_DIR / "data" / "processed" / "streamlit_real_job_recommendations.csv"
+    output_dir = BASE_DIR / "outputs"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "streamlit_job_recommendations.csv"
     results_df.to_csv(output_file, index=False)
 
     for number, (_, row) in enumerate(results_df.iterrows(), start=1):
@@ -1513,4 +1525,4 @@ if find_jobs or not st.session_state.last_results.empty:
 
 
 st.divider()
-st.caption("SkillBridge AI • Real-world jobs • GPS • OpenStreetMap • Haversine distance")
+st.caption("SkillBridge AI • Adzuna-sourced job records • GPS • OpenStreetMap • Haversine distance")
