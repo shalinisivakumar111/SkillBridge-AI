@@ -214,6 +214,17 @@ LOCATIONS = [
     "Kozhikode",
     "Kollam"
 ]
+def normalize_search_location(value):
+    """
+    Clean the user's preferred job location.
+    Returns an empty string when no usable location was provided.
+    """
+    location = clean_text(value)
+
+    if not location:
+        return ""
+
+    return location
 
 
 # ============================================================
@@ -488,12 +499,16 @@ def deduplicate_jobs(df):
 # MAIN
 # ============================================================
 
-def main():
+def main(preferred_location=None):
 
     print("=" * 70)
     print("              SKILLBRIDGE AI")
     print("       DYNAMIC REAL-WORLD JOB SEARCH")
     print("=" * 70)
+
+    # --------------------------------------------------------
+    # Adzuna configuration
+    # --------------------------------------------------------
 
     try:
 
@@ -502,9 +517,7 @@ def main():
             "Loading Adzuna configuration..."
         )
 
-        app_id, app_key, country = (
-            load_config()
-        )
+        app_id, app_key, country = load_config()
 
         print(
             "Adzuna credentials loaded successfully."
@@ -518,6 +531,39 @@ def main():
         )
 
         return
+
+    # --------------------------------------------------------
+    # Preferred job location
+    # --------------------------------------------------------
+
+    preferred_location = normalize_search_location(
+        preferred_location
+    )
+
+    if preferred_location:
+
+        search_locations = [
+            preferred_location
+        ]
+
+        print()
+        print(
+            f"Searching specifically for jobs in: "
+            f"{preferred_location}"
+        )
+
+    else:
+
+        search_locations = LOCATIONS
+
+        print()
+        print(
+            "No preferred job location supplied."
+        )
+
+        print(
+            "Using the default city search list."
+        )
 
     # --------------------------------------------------------
     # Candidate skills
@@ -682,13 +728,13 @@ def main():
     collected = []
 
     total_requests = (
-        len(LOCATIONS)
+        len(search_locations)
         * len(search_terms)
     )
 
     request_number = 0
 
-    for location in LOCATIONS:
+    for location in search_locations:
 
         print(
             f"\nSearching {location}..."
@@ -806,7 +852,7 @@ def main():
 
     print(
         f"Locations searched: "
-        f"{len(LOCATIONS)}"
+        f"{len(search_locations)}"
     )
 
     print()
@@ -849,4 +895,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+
+    user_location = input(
+        "\nEnter preferred job location "
+        "(for example Chennai):\n> "
+    ).strip()
+
+    main(
+        preferred_location=user_location
+    )

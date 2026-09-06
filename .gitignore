@@ -1,9 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
 venv/
 .venv/
-__pycache__/
-*.pyc
-.DS_Store
-.streamlit/secrets.toml
+
+# Secrets
 .env
 .env.*
+
+# Logs
 *.log
+
+# User uploads
+uploads/
